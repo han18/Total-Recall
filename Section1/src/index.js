@@ -117,3 +117,14 @@ for (let even = 1; even <= 100; even++) {
     console.log(even);
   }
 }
+
+// =========================== C. Give me Five =============
+// For the numbers 0 - 100, print out "I found a <number>. High five!" if the number is a multiple of five Example Output:
+
+for (let m = 1; m <= 100; m++) {
+  if (m % 5 === 0) {
+    console.log(`"I found a ${m} High five!"`);
+  } else {
+    console.log(m);
+  }
+}
