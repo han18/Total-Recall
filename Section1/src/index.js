@@ -83,10 +83,37 @@ if (animal === "cow") {
 // Make a variable that holds a person's age; be semantic
 // Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
 
-const age = 12;
+const age = 16;
 
 if (age >= 16) {
   console.log("Here are the keys!");
 } else {
   console.log("Sorry, you're too young.");
+}
+
+//============================= II. Loops ===============
+//===== A. The basics ====
+
+// Write a loop that will print out all the numbers from 0 to 10, inclusive
+// Write a loop that will print out all the numbers from 10 up to and including 400
+// Write a loop that will print out every third number starting with 12 and going no higher than 4000
+
+for (let z = 0; z <= 10; z++) {
+  console.log(z);
+}
+
+for (let up = 10; up <= 400; up++) {
+  console.log(up);
+}
+
+//======================= B. Get even ==========
+// Print out the numbers that are within the range of 1 - 100
+// Adjust your code to add a message next to even numbers only that says: "is an even number"
+
+for (let even = 1; even <= 100; even++) {
+  if (even % 2 === 0) {
+    console.log(`${even} is an even number `);
+  } else {
+    console.log(even);
+  }
 }
