@@ -179,3 +179,10 @@ console.log(ourClass[2]); // reference the index
 // Change the value of "Github" to "Octocat"
 ourClass[4] = "Octocat";
 console.log(ourClass);
+
+// Add a new element, "Cloud City" to the array
+
+// using .push()
+newClass = ourClass.push("Cloudy City"); // must create a new array to old the new changes
+
+console.log(ourClass);
