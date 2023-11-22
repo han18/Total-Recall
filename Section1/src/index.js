@@ -175,3 +175,7 @@ console.log(randomThings);
 // Given the following array... What would you write to access the 3rd element of the array?
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 console.log(ourClass[2]); // reference the index
+
+// Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat";
+console.log(ourClass);
