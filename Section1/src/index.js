@@ -123,8 +123,28 @@ for (let even = 1; even <= 100; even++) {
 
 for (let m = 1; m <= 100; m++) {
   if (m % 5 === 0) {
-    console.log(`"I found a ${m} High five!"`);
+    console.log(`I found a ${m}. High five!`);
+  } else if (m % 3 === 0) {
+    //if the number is a multiple of three
+    console.log(`I found a number ${m}. Three is a crowd`);
   } else {
     console.log(m);
   }
 }
+// =========================== D. Savings account =============
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+let bank_account = 0;
+
+for (let sum = 1; sum <= 10; sum++) {
+  bank_account += sum;
+}
+console.log(`the sum is ${bank_account}`); // 55
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+
+for (let sumWeek = 1; sumWeek <= 100; sumWeek++) {
+  bank_account = sumWeek * sumWeek;
+}
+
+console.log(`the bonus is ${bank_account} `);
