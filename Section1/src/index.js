@@ -151,3 +151,13 @@ console.log(`the bonus is ${bank_account} `); // 10,000
 
 // another way of logging to the console
 console.log(`BONUS`, bank_account);
+
+//============================== III. Arrays & Control flow ===========
+
+// Create an array that contains three quotes and store it in a variable called quotes.
+
+const quotes = [
+  "Live life to the fullest!",
+  "Be content is key for a happier life",
+  "Work hard to grow, and smarter to know",
+];
