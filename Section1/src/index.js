@@ -166,3 +166,7 @@ const quotes = [
 //Given the following array, How do you access the 1st element in the array? using bracket notation
 const randomThings = [1, 10, "Hello", true];
 console.log(randomThings[0]);
+
+//Change the value of "Hello"to "World"
+randomThings[2] = "World";
+console.log(randomThings);
