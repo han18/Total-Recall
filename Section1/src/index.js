@@ -158,6 +158,11 @@ console.log(`BONUS`, bank_account);
 
 const quotes = [
   "Live life to the fullest!",
-  "Be content is key for a happier life",
+  "Being content is key for a happier life",
   "Work hard to grow, and smarter to know",
 ];
+
+// C. Accessing elements
+//Given the following array, How do you access the 1st element in the array? using bracket notation
+const randomThings = [1, 10, "Hello", true];
+console.log(randomThings[0]);
