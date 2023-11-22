@@ -206,6 +206,10 @@ myArray.unshift("Bob Marley");
 console.log(myArray);
 
 //Remove the string of your choice from the end of the array.
-
 myArray.pop(); // it deletes the last without referencing the index
+console.log(myArray);
+
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+
+myArray.reverse();
 console.log(myArray);
