@@ -182,8 +182,7 @@ console.log(ourClass);
 
 // Add a new element, "Cloud City" to the array
 // using .push()
-newClass = ourClass.push("Cloudy City"); // must create a new array to hold the new changes
-
+ourClass.push("Cloudy City"); //
 console.log(ourClass);
 
 // ========================= E. Mix It Up ===================
@@ -191,5 +190,9 @@ console.log(ourClass);
 // Add the string "Aegon" to the end of the array. Add another string of your choice to the end of the array.
 
 const myArray = [5, 10, 500, 20];
-const myArray2 = myArray.push("Aegon");
+myArray.push("Aegon");
+console.log(myArray);
+
+//adding another string
+myArray.push("I know how to code");
 console.log(myArray);
