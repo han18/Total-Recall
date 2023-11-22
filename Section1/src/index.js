@@ -147,4 +147,7 @@ for (let sumWeek = 1; sumWeek <= 100; sumWeek++) {
   bank_account = sumWeek * sumWeek;
 }
 
-console.log(`the bonus is ${bank_account} `);
+console.log(`the bonus is ${bank_account} `); // 10,000
+
+// another way of logging to the console
+console.log(`BONUS`, bank_account);
