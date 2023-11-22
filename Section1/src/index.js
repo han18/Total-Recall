@@ -170,3 +170,8 @@ console.log(randomThings[0]);
 //Change the value of "Hello"to "World"
 randomThings[2] = "World";
 console.log(randomThings);
+
+//D. Change values
+// Given the following array... What would you write to access the 3rd element of the array?
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+console.log(ourClass[2]); // reference the index
