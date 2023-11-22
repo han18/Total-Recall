@@ -196,3 +196,7 @@ console.log(myArray);
 //adding another string
 myArray.push("I know how to code");
 console.log(myArray);
+
+//Remove the 5 from the beginning of the array.
+myArray.shift();
+console.log(myArray);
