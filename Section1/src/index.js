@@ -318,3 +318,18 @@ function printGreeting(name) {
 }
 
 console.log(printGreeting("Hanan"));
+
+//B. printCool
+function printCool(name) {
+  return `${name} is cool `;
+}
+console.log(printCool("ELIAS"));
+
+// C. calculateCube
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+
+function calculateCube(x) {
+  x *= x * x;
+  return x;
+}
+console.log(calculateCube(5));
