@@ -301,3 +301,8 @@ console.log(thomsCloset[2][1]);
 console.log(
   `Thom's is looking fierce in ${thomsCloset[0][0]}, ${thomsCloset[1][1]} and ${thomsCloset[2][1]} `
 );
+
+// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+
+thomsCloset[1][2] = "Footie Pajamas";
+console.log(thomsCloset);
