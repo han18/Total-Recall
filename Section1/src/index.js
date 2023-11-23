@@ -328,8 +328,32 @@ console.log(printCool("ELIAS"));
 // C. calculateCube
 // Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 
-function calculateCube(x) {
-  x *= x * x;
-  return x;
+function calculateCube(cube) {
+  cube *= cube * cube;
+  return cube;
 }
 console.log(calculateCube(5));
+
+// D. isVowel
+// Write a function isVowelthat takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case. Test your function on every vowel and make sure it's working. In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want.
+
+function isVowelthat(vowel) {
+  if (
+    vowel === "a" &&
+    vowel === "i" &&
+    vowel === "e" &&
+    vowel === "o" &&
+    vowel === "u"
+  ) {
+    console.log(true);
+  } else if (
+    vowel !== "a" &&
+    vowel !== "i" &&
+    vowel !== "e" &&
+    vowel !== "o" &&
+    vowel !== "u"
+  ) {
+    console.log(false);
+  }
+}
+console.log(isVowelthat("e"));
