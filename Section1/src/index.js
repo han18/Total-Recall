@@ -391,4 +391,18 @@ function maxOfThree(a, b, c) {
   return Math.max(a, b, c);
 }
 
-console.log(maxOfThree(3, 38, 8));
+console.log(maxOfThree(3, 38, 8)); // returned 38 the largest using Math.maxH. printLongestWord
+
+// Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+
+function printLongestWord(longStr) {
+  let wordString = "";
+  for (let i = 0; i < longStr.length; i++) {
+    if (wordString.length < longStr[i].length) {
+      wordString = longStr[i];
+    }
+  }
+  return wordString;
+}
+
+console.log(printLongestWord(["hannnan", "Fadad", "NewYork", "ny", "cats"]));
