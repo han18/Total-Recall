@@ -276,5 +276,9 @@ const thomsCloset = [
 ];
 
 //What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
-
 console.log(` Kristyn is rocking that ${kristynsCloset[3]} today`);
+
+// Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+//using the splice() method
+kristynsCloset.splice(6, 0, "raybans");
+console.log(kristynsCloset);
