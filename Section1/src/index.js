@@ -252,7 +252,7 @@ const kristynsCloset = [
   "yellow knit hat",
   "marshmallow peeps",
 ];
-
+//////////////////////////
 const thomsCloset = [
   [
     // These are Thom's shirts
@@ -282,3 +282,13 @@ console.log(` Kristyn is rocking that ${kristynsCloset[3]} today`);
 //using the splice() method
 kristynsCloset.splice(6, 0, "raybans");
 console.log(kristynsCloset);
+
+//Kristyn spilled coffee on her hat... modify this item to read "stained knit hat"instead of yellow.
+kristynsCloset.splice(6, 0, "stained knit hat");
+console.log(kristynsCloset);
+
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirtsarray.
+console.log(thomsCloset[0][0]); // not including the original first brackets
+
+// In the same way, access one item from Thom's pants array.
+console.log(thomsCloset[1][2]);
