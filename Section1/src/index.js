@@ -439,3 +439,18 @@ console.log(user);
 
 user.location = "New York";
 console.log(user);
+
+// D. Shopaholic!===========
+// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// Console.log just the "Merino jodhpurs" from the purchased array.
+
+const purchsedArray = [];
+
+purchsedArray.push("carbohydrates");
+purchsedArray.push("peace of mind");
+purchsedArray.push("Merino jodhpurs");
+
+console.log(purchsedArray);
+console.log(purchsedArray[2]);
