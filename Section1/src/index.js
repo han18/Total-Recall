@@ -365,8 +365,30 @@ console.log(getTwoLengths("hanan", "cat"));
 // F. getMultipleLengths
 // Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
 
+// function getMultipleLengths(string) {
+//   return [string.length];
+// }
+
+// console.log(getMultipleLengths("han")); MY OWN CODE
+
+// online help... using the map method
+
 function getMultipleLengths(string) {
-  return [string.length];
+  return string.map(function (str) {
+    return str.length;
+  });
 }
 
-console.log(getMultipleLengths("han"));
+const stringWords = []; // to hold the string that are in the array
+getMultipleLengths(stringWords);
+
+console.log(getMultipleLengths(["hanan", "Fadad", "NewYork", "ny", "cats"]));
+
+// G. maxOfThree
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned. Be sure to test it with larger values in each of the three locations.
+
+function maxOfThree(a, b, c) {
+  return Math.max(a, b, c);
+}
+
+console.log(maxOfThree(3, 38, 8));
