@@ -210,6 +210,17 @@ myArray.pop(); // it deletes the last without referencing the index
 console.log(myArray);
 
 // Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
-
 myArray.reverse();
 console.log(myArray);
+
+// ======================= F. Biggie Smalls =======================
+//Create a variable that contains an integer. Write an if ... else statement that:
+// console.log() "little number" if the number is entered is less than 100
+// console.log()  big number if the number is greater than or equal to 100.
+
+const number = 150;
+if (number <= 100) {
+  console.log("little number");
+} else if (number >= 100) {
+  console.log("big number");
+}
