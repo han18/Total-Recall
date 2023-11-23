@@ -219,8 +219,24 @@ console.log(myArray);
 // console.log()  big number if the number is greater than or equal to 100.
 
 const number = 150;
-if (number <= 100) {
+if (number < 100) {
   console.log("little number");
 } else if (number >= 100) {
   console.log("big number");
+}
+
+// G. Monkey in the Middle
+// Write an if ... else if ... else statement:
+// console.log() "little number" if the number entered is less than 5.
+// If the number entered is more than 10, log "big number".
+// Otherwise, log "monkey".
+
+const numMonkey = 4;
+
+if (numMonkey < 5) {
+  console.log("little number");
+} else if (numMonkey > 10) {
+  console.log("big number");
+} else {
+  console.log("monkey");
 }
