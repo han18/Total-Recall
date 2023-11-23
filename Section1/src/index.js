@@ -292,3 +292,12 @@ console.log(thomsCloset[0][0]); // not including the original first brackets
 
 // In the same way, access one item from Thom's pants array.
 console.log(thomsCloset[1][2]);
+
+// Access one item from Thom's accessories array.
+console.log(thomsCloset[2][1]);
+
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+
+console.log(
+  `Thom's is looking fierce in ${thomsCloset[0][0]}, ${thomsCloset[1][1]} and ${thomsCloset[2][1]} `
+);
