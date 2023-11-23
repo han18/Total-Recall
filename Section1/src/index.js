@@ -474,7 +474,20 @@ console.log(user);
 console.log(user.friend.firstName);
 
 // Console.log just the friend's location
+console.log(user.friend.location);
 // CHANGE the friend's age to 55
+
+user.friend.age = 55;
+console.log(user);
+
 // The friend has purchased "The One Ring". Use ``.push()to add "The One Ring" to the friend'spurchased` array.
+user.friend.purchased.push("The One Ring");
+console.log(user);
+
 // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+user.friend.purchased.push("Latte");
+console.log(user);
+
 // Console.log just "A latte" from the friend's purchased array.
+
+console.log(user.friend.purchased[1]);
