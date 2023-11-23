@@ -361,3 +361,12 @@ function getTwoLengths(l1, l2) {
 }
 
 console.log(getTwoLengths("hanan", "cat"));
+
+// F. getMultipleLengths
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+function getMultipleLengths(string) {
+  return [string.length];
+}
+
+console.log(getMultipleLengths("han"));
