@@ -1,3 +1,5 @@
+// Section 1 of the practice
+
 // 1. Variables & Data types
 
 // A. Variables
@@ -303,6 +305,5 @@ console.log(
 );
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
-
 thomsCloset[1][2] = "Footie Pajamas";
 console.log(thomsCloset);
