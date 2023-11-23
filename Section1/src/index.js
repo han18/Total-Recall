@@ -337,23 +337,27 @@ console.log(calculateCube(5));
 // D. isVowel
 // Write a function isVowelthat takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case. Test your function on every vowel and make sure it's working. In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want.
 
+// function isVowelthat(vowel) {
+//   if (vowel === "a" && vowel === "i" && vowel === "e" && vowel === "o"  && vowel === "u") {
+//     console.log(true);
+//   } else if (vowel !== "a" && vowel !== "i" && vowel !== "e" && vowel !== "o"  && vowel !== "u") {
+//     console.log(false);
+//   }
+// }
+// console.log(isVowelthat("a")); MY OLD CODE THAT DIDN'T WORK
+
 function isVowelthat(vowel) {
-  if (
-    vowel === "a" &&
-    vowel === "i" &&
-    vowel === "e" &&
-    vowel === "o" &&
-    vowel === "u"
-  ) {
-    console.log(true);
-  } else if (
-    vowel !== "a" &&
-    vowel !== "i" &&
-    vowel !== "e" &&
-    vowel !== "o" &&
-    vowel !== "u"
-  ) {
-    console.log(false);
-  }
+  return ["a", "e", "i", "o", "u"].includes(vowel); // includes is a Boolean method in an array
 }
-console.log(isVowelthat("e"));
+
+console.log(isVowelthat("h")); //false
+console.log(isVowelthat("e")); // true
+
+//E. getTwoLengths
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+function getTwoLengths(l1, l2) {
+  return [l1.length, l2.length];
+}
+
+console.log(getTwoLengths("hanan", "cat"));
