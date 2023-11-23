@@ -416,7 +416,18 @@ console.log(printLongestWord(["hannnan", "Fadad", "NewYork", "ny", "cats"]));
 
 const user = {
   name: "Farah",
-  email: "farah@gmail",
+  email: "farah@gmail.com",
   age: 22,
   purchased: [],
 };
+
+// Update the user
+// Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address
+
+user.email = "fadah@gmail.com";
+console.log(user);
+
+// Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
+
+user.age++;
+console.log(user);
