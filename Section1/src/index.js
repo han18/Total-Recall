@@ -531,9 +531,8 @@ console.log(user);
 // in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
 
 function oldAndLoud(users) {
-  // users = user.color = [];
-  // users.push(user.color);
-  user.color.push(users);
+  users = user.color = [];
+  // user.color.push();
 
   // return users;
 }
@@ -542,3 +541,22 @@ oldAndLoud("blue");
 
 // oldAndLoud();
 console.log(oldAndLoud());
+
+console.log("==========================================");
+
+//================= Requirements Complete! Hungry for More?
+
+// ===========Cat Combinator
+// 1. Mama cat
+// Define an object called cat1that contains the following properties:
+// name breed age (a number) console.log the cat's age console.log the cat's breed
+
+const cat1that = {
+  Catname: "Smokey",
+  Catbreed: "native",
+  Catage: 10,
+};
+
+console.log(cat1that.Catage); // dot notation
+console.log(cat1that["Catage"]); // bracet notation must put the property in quotes
+console.log(cat1that.Catbreed);
