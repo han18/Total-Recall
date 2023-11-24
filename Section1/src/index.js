@@ -446,14 +446,14 @@ console.log(user);
 // Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
 // Console.log just the "Merino jodhpurs" from the purchased array.
 
-const purchsedArray = [];
+// const purchsedArray = [];
 
-purchsedArray.push("carbohydrates");
-purchsedArray.push("peace of mind");
-purchsedArray.push("Merino jodhpurs");
+user.purchased.push("carbohydrates");
+user.purchased.push("peace of mind");
+user.purchased.push("Merino jodhpurs");
 
-console.log(purchsedArray);
-console.log(purchsedArray[2]);
+console.log(user);
+console.log(user.purchased[1]);
 
 // E. Object-within-object
 // Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
@@ -491,10 +491,22 @@ console.log(user);
 // Console.log just "A latte" from the friend's purchased array.
 console.log(user.friend.purchased[1]);
 
+console.log("==========================================");
 // ================================== F. Loops
 // Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+
+// using the (for in) worked better it logs the value ....(for of) works for arrays
+for (const w in user) {
+  console.log(w, user[w]);
+}
+console.log("//==============");
+/// using a for of since the purchase is in an array
+for (let u of user.purchased) {
+  console.log(u);
+}
+
 // Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 
-for (let a = 0; a < purchsedArray.length; a++) {
-  console.log(purchsedArray[a]);
-}
+// for (let w = 0; w < user.length; w++) {
+//   console.log(user[w]);
+// }
