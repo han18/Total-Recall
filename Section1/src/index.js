@@ -520,8 +520,25 @@ for (let f of user.friend.purchased) {
 // make the user's name uppercase The function does not need a return statement, it will merely modify the user object.
 
 function updateUserthat() {
-  user.age = age + age;
+  user.age++;
 }
-console.log(updateUserthat());
+updateUserthat(); //24
+updateUserthat(); //25
+updateUserthat(); //26
+console.log(user);
 
-// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed
+// in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+
+function oldAndLoud(users) {
+  // users = user.color = [];
+  // users.push(user.color);
+  user.color.push(users);
+
+  // return users;
+}
+
+oldAndLoud("blue");
+
+// oldAndLoud();
+console.log(oldAndLoud());
