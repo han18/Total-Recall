@@ -497,7 +497,7 @@ console.log("==========================================");
 
 // using the (for in) worked better it logs the value ....(for of) works for arrays
 for (const w in user) {
-  console.log(w, user[w]);
+  console.log(`${w}:: ${user[w]}`);
 }
 console.log("//==============");
 
@@ -514,6 +514,14 @@ for (let f of user.friend.purchased) {
   console.log(f);
 }
 
-// for (let w = 0; w < user.length; w++) {
-//   console.log(user[w]);
-// }
+//G. Functions can operate on objects
+// Write a single function updateUserthat takes no parameters. When the function is run, it should:
+// increment the user's age by 1
+// make the user's name uppercase The function does not need a return statement, it will merely modify the user object.
+
+function updateUserthat() {
+  user.age = age + age;
+}
+console.log(updateUserthat());
+
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
