@@ -560,3 +560,26 @@ const cat1that = {
 console.log(cat1that.Catage); // dot notation
 console.log(cat1that["Catage"]); // bracet notation must put the property in quotes
 console.log(cat1that.Catbreed);
+
+// 2. Papa cat
+// Define an object called cat2that also contains the properties:
+// name breed age (a number)
+
+const cat2that = {
+  catname2: "Venus",
+  catbreed2: "Asian",
+  catage2: 5,
+};
+// Combine Cats!
+// The cats are multiplying!
+
+// Write a function combineCats that has two parameters mama, and papa. The function will take two arguments -- each a cat object.
+// Pass cat1 and cat2 as arguments to the combineCats function. The function should console.log them. Example:
+
+function combineCats(mama, baba) {
+  mama = cat1that;
+  baba = cat2that;
+}
+// combineCats();
+console.log(combineCats("cat1", "cat2"));
+// console.log(combineCats());
