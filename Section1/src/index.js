@@ -485,9 +485,16 @@ user.friend.purchased.push("The One Ring");
 console.log(user);
 
 // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
-user.friend.purchased.push("Latte");
+user.friend.purchased.push("A Latte");
 console.log(user);
 
 // Console.log just "A latte" from the friend's purchased array.
-
 console.log(user.friend.purchased[1]);
+
+// ================================== F. Loops
+// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+
+for (let a = 0; a < purchsedArray.length; a++) {
+  console.log(purchsedArray[a]);
+}
