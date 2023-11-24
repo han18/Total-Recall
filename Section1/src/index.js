@@ -500,12 +500,19 @@ for (const w in user) {
   console.log(w, user[w]);
 }
 console.log("//==============");
+
 /// using a for of since the purchase is in an array
 for (let u of user.purchased) {
   console.log(u);
 }
 
 // Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+console.log("//==============");
+
+for (let f of user.friend.purchased) {
+  // since it's an array used for of
+  console.log(f);
+}
 
 // for (let w = 0; w < user.length; w++) {
 //   console.log(user[w]);
